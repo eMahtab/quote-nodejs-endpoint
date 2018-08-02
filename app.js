@@ -11,8 +11,6 @@ var connection = mysql.createConnection({
   password : 'awesome_password'
 });
 
-app.use(express.static('public'));
-
 app.get('/quotes', function (req, res) {
     connection.query('select * from quotes', function (error, results, fields) {
     if (error) throw error;
