@@ -2,9 +2,9 @@
   "name": "opsworks-rds",
   "version": "1.0.0",
   "description": "Opsworks App with RDS",
-  "main": "app.js",
+  "main": "server.js",
   "scripts": {
-    "start":"node app.js" 
+    "start":"node server.js" 
   },
   "author": "Mahtab Alam",
   "license": "MIT",

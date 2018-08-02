@@ -28,7 +28,7 @@ app.get('/quotes', function (req, res) {
   });
  });
 
-var port = process.env.PORT || 9091;
+var port =  80;
 
 var server=app.listen(port,function(req,res){
     console.log("Catch the action at http://localhost:"+port);
